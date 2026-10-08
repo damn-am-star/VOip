@@ -1,0 +1,30 @@
+{
+    // 1. Use IntelliSense to discover available launch attributes.
+    // 2. Hover over an attribute to read its description.
+    // 3. Check supported values before changing a setting.
+    // 4. Review the configuration type and request fields.
+    // 5. See https://go.microsoft.com/fwlink/?linkid=830387 for more information.
+   "command": "npm start",
+        "name": "Run npm start",
+        "request": "launch",
+        "type": "node-terminal"
+    },
+      "version": "0.2.0",
+    "configurations": [
+    {
+        "command": "npm start",
+        "name": "Run npm start",
+        "request": "launch",
+        "type": "node-terminal"
+    },
+    {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "program": "${file}"
+    }
+]
+} |
